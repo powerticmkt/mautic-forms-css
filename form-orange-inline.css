@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+.mauticform_wrapper,
+.mauticform_wrapper *{
+  font-family: 'Open Sans', sans-serif;
+}
+
+  .mauticform_wrapper .mauticform-row{
+    display: inline;
+  }
+
+    .mauticform-input,
+    .mauticform-textarea,
+    .mauticform-selectbox {
+        background-color: #fff !important;
+        border: solid 2px #FF6600 !important;
+        width: 58% !important;
+        -moz-border-radius: 0!important;
+        -webkit-border-radius: 0!important;
+        border-radius: 0!important;
+        font-size: 16px;
+        color: #000 !important;
+        padding: 16px!important;
+    }
+    .mauticform-button {
+        background-color: #FF6600!important;
+        color: #fff;
+        border-color: #FF6600 !important;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bolder;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        padding: 16px;
+        background: transparent;
+        border: 2px solid;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -moz-transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        width:38%;
+    }
+    .mauticform-button:hover {
+      background-color: #fff !important;
+      border-color: #FF6600 !important;
+      color: #FF6600 !important;
+      padding: 16px !important;
+    }
+    .mauticform-errormsg{
+      font-color: red;
+      font-weight: bold;
+    }
+
+    .mauticform-helpmessage{
+      font-style: italic;
+      font-weight: 100;
+    }
