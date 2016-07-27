@@ -13,7 +13,7 @@
     .mauticform-textarea,
     .mauticform-selectbox {
         background-color: #fff !important;
-        border: solid 2px #FF6600 !important;
+        border: solid 2px $color-primary !important;
         width: 58% !important;
         -moz-border-radius: 0!important;
         -webkit-border-radius: 0!important;
@@ -23,9 +23,9 @@
         padding: 16px!important;
     }
     .mauticform-button {
-        background-color: #FF6600!important;
-        color: #fff;
-        border-color: #FF6600 !important;
+        background-color: $color-primary!important;
+        color: $btn-text-color;
+        border-color: $color-primary !important;
         cursor: pointer;
         font-size: 16px;
         font-weight: bolder;
@@ -49,7 +49,7 @@
       padding: 16px !important;
     }
     .mauticform-errormsg{
-      font-color: red;
+      color: $danger !important;
       font-weight: bold;
     }
 
