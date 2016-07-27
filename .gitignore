@@ -24,7 +24,7 @@ coverage
 .grunt
 
 .sass-cache
-*.map
+.map
 
 # node-waf configuration
 .lock-wscript
