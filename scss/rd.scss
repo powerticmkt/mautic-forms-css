@@ -1,0 +1,18 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+$font-family: 'Open Sans', sans-serif;
+
+// MAUTIC CLASSES
+$wrapper-background-color:         #ecf0f1;
+$wrapper-text-color:               #404a5e;
+$wrapper-border-color:             none;
+$label-color:                      #404a5e;
+$input-text-color:                 #000;
+$error-label-color:                #c0392b;
+$btn-background-color:             #404a5e;
+$btn-text-color:                   #fff;
+$btn-hover-background-color:       #404a5e;
+$btn-hover-text-color:             #FFF;
+
+@import "form-normal";
