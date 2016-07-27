@@ -1,3 +1,3 @@
 # mautic-forms-css
 
-Form Styles in pure CSS for Mautic platform
+CSS para a formatação de Formulários na Plataforma Mautic
