@@ -1,7 +1,8 @@
+@charset "UTF-8";
 /*
  * RD - Mautic Form CSS Theme
  *
- * @package     LandingPress
+ * @package     Orangeweb
  * @author      Agência Orangeweb
  * @copyright   2016 Agência Orangeweb
  * @license     GPL-2.0+
@@ -17,16 +18,35 @@
 
 $font-family: 'Open Sans', sans-serif;
 
-// MAUTIC CLASSES
+// Wrapper global do formulário ********
+
 $wrapper-background-color:         #ecf0f1;
 $wrapper-text-color:               #404a5e;
 $wrapper-border-color:             none;
+$wrapper-padding:                  20px 15px;
+
+// Wrapper presente em cada item do formulário ********
+
+$row_padding: 8px;
+$row_margin: 8px;
+
+// Legendas de Formulários ********
+
 $label-color:                      #404a5e;
+$label_weight:                     100;
+
+// Inputs do formulário ********
+
 $input-text-color:                 #000;
 $error-label-color:                #c0392b;
+
+// Botões do Formulário
+
 $btn-background-color:             #404a5e;
 $btn-text-color:                   #fff;
 $btn-hover-background-color:       #404a5e;
 $btn-hover-text-color:             #FFF;
+
+
 
 @import "form-normal";

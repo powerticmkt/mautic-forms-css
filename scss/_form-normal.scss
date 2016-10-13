@@ -5,13 +5,20 @@
     }
 
     .mauticform_wrapper{
-      background-color: $wrapper-background-color;
-      color: $wrapper-text-color;
-      padding: 20px 15px;
+      background-color: $wrapper-background-color !important;
+      color: $wrapper-text-color !important;
+      padding: $wrapper-padding !important;
+    }
+
+    .mauticform-row{
+      padding: $row_padding !important;
+      margin: $row_padding !important;
     }
 
     .mauticform-label{
-      color: $label-color;
+      color: $label-color !important;
+      font-weight: $label_weight !important;
+      margin-bottom: 5px !important;
     }
 
     .mauticform-input,
