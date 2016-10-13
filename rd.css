@@ -54,15 +54,15 @@
 
 .mauticform-button {
   background-color: #404a5e !important;
-  color: #fff;
-  margin: 8px auto 0;
+  color: #fff !important;
+  margin: 8px auto 0 !important;
   cursor: pointer;
   font-size: 20px;
   font-weight: 500;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  padding: 6px 20px;
+  padding: 6px 20px !important;
   line-height: 1.7em;
   background: transparent;
   border: 2px solid;
