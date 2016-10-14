@@ -1,1 +1,43 @@
 @charset "UTF-8";
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+$font-family: 'Open Sans', sans-serif;
+
+// Wrapper global do formulário ********
+
+$wrapper-background-color:         #ecf0f1;
+$wrapper-text-color:               #404a5e;
+$wrapper-border-color:             none;
+$wrapper-padding:                  20px 15px;
+
+// Wrapper presente em cada item do formulário ********
+
+$row_padding: 8px;
+$row_margin: 8px;
+
+// Legendas de Formulários ********
+
+$label-color:                      #404a5e;
+$label_weight:                     100;
+$label_margin:                     0 0 5px 0;
+
+// Inputs do formulário ********
+
+$input-text-color:                 #000;
+$input_border:                     none;
+$input_font_size:                  16px;
+$input_padding:                    16px;
+
+// Input formulário com erro
+
+$error-label-color:                #c0392b;
+
+// Botões do Formulário
+
+$btn-background-color:             #404a5e;
+$btn-text-color:                   #fff;
+$btn-hover-background-color:       #404a5e;
+$btn-hover-text-color:             #FFF;
+$btn-font-size:                    20px;
+$btn-padding:                      12px 20px;
