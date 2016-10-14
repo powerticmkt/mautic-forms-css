@@ -30,7 +30,7 @@
 .mauticform-label {
   color: #404a5e !important;
   font-weight: 100 !important;
-  margin-bottom: 5px !important; }
+  margin: 0 0 5px 0 !important; }
 
 .mauticform-input,
 .mauticform-textarea,
@@ -48,9 +48,9 @@
   box-sizing: border-box; }
 
 .mauticform-selectbox {
-  vertical-align: middle;
-  height: 50px;
-  line-height: 50px; }
+  vertical-align: middle !important;
+  height: 50px !important;
+  line-height: 50px !important; }
 
 .mauticform-button {
   background-color: #404a5e !important;
@@ -74,8 +74,7 @@
 
 .mauticform-button:hover {
   background-color: #404a5e !important;
-  color: #FFF !important;
-  padding: 6px 20px !important; }
+  color: #FFF !important; }
 
 .mauticform-errormsg {
   color: #c0392b !important;

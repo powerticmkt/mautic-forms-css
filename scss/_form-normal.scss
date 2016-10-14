@@ -18,7 +18,7 @@
     .mauticform-label{
       color: $label-color !important;
       font-weight: $label_weight !important;
-      margin-bottom: 5px !important;
+      margin: $label_margin !important;
     }
 
     .mauticform-input,
@@ -29,18 +29,18 @@
         -moz-border-radius: 0 !important;
         -webkit-border-radius: 0 !important;
         border-radius: 0 !important;
-        font-size: 16px !important;
+        font-size: $input_font_size !important;
         color: $input-text-color !important;
-        padding: 16px !important;
+        padding: $input_padding !important;
         -moz-box-sizing: border-box;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
     }
 
     .mauticform-selectbox{
-      vertical-align: middle;
-      height: 50px;
-      line-height: 50px;
+      vertical-align: middle !important;
+      height: 50px !important;
+      line-height: 50px !important;
     }
 
     .mauticform-button {
@@ -48,12 +48,12 @@
         color: $btn-text-color !important;
         margin: 8px auto 0 !important;
         cursor: pointer;
-        font-size: 20px !important;
+        font-size: $btn-font-size !important;
         font-weight: 500 !important;
         -moz-border-radius: 3px !important;
         -webkit-border-radius: 3px !important;
         border-radius: 3px !important;
-        padding: 12px 20px !important;
+        padding: $btn-padding !important;
         line-height: 1.7em !important;
         border: 2px solid !important;
         -webkit-font-smoothing: antialiased;
@@ -66,7 +66,6 @@
     .mauticform-button:hover {
         background-color: $btn-hover-background-color !important;
         color: $btn-hover-text-color !important;
-        padding: 6px 20px !important;
     }
     .mauticform-errormsg{
       color: $error-label-color !important;

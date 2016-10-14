@@ -34,12 +34,18 @@ $row_margin: 8px;
 
 $label-color:                      #404a5e;
 $label_weight:                     100;
+$label_margin:                     0 0 5px 0;
 
 // Inputs do formulário ********
 
 $input-text-color:                 #000;
-$error-label-color:                #c0392b;
 $input_border:                     none;
+$input_font_size:                  16px;
+$input_padding:                    16px;
+
+// Input formulário com erro
+
+$error-label-color:                #c0392b;
 
 // Botões do Formulário
 
@@ -47,7 +53,8 @@ $btn-background-color:             #404a5e;
 $btn-text-color:                   #fff;
 $btn-hover-background-color:       #404a5e;
 $btn-hover-text-color:             #FFF;
-
+$btn-font-size:                    20px;
+$btn-padding:                      12px 20px;
 
 
 @import "form-normal";
