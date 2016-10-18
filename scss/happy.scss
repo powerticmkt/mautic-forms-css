@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*
  * Happy - Mautic Form CSS Theme
  *
@@ -13,9 +15,7 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
-
-$font-family: 'Open Sans', sans-serif;
+@import "variables";
 
 // MAUTIC CLASSES
 $wrapper-background-color:         #E94A49;
