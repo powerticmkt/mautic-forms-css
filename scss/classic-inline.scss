@@ -1,0 +1,30 @@
+/*
+ * Classic - Mautic Form CSS Theme
+ *
+ * @package     LandingPress
+ * @author      Agência Orangeweb
+ * @copyright   2016 Agência Orangeweb
+ * @license     GPL-2.0+
+ *
+ * Version:     1.0.0
+ * Author:      Agência Orangeweb
+ * Author URI:  https://www.orangeweb.com.br
+ * License:     GPL-2.0+
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ */
+
+@import "variables";
+
+// MAUTIC CLASSES
+$wrapper-background-color:         transparent;
+$wrapper-text-color:               #2c3e50;
+$wrapper-border-color:             none;
+$label-color:                      #2c3e50;
+$input-text-color:                 #000;
+$error-label-color:                #c0392b;
+$btn-background-color:             #FF6600;
+$btn-text-color:                   #fff;
+$btn-hover-background-color:       #2c3e50;
+$btn-hover-text-color:             #FFF;
+
+@import "form-email";

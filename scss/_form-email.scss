@@ -1,0 +1,60 @@
+
+    .mauticform_wrapper,
+    .mauticform_wrapper *{
+      font-family: $font-family;
+    }
+
+    .mauticform_wrapper{
+      background-color: $wrapper-background-color !important;
+      color: $wrapper-text-color !important;
+    }
+
+    .mauticform-row{
+      padding: $row_padding !important;
+      margin: $row_padding !important;
+      display: inline !important;
+      float:left;
+    }
+
+    .mauticform-label{
+      display: none;
+    }
+
+    .mauticform-input,
+    .mauticform-textarea,
+    .mauticform-selectbox {
+        border: $input_border !important;
+        -moz-border-radius: 0 !important;
+        -webkit-border-radius: 0 !important;
+        border-radius: 0 !important;
+        font-size: $input_font_size !important;
+        color: $input-text-color !important;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .mauticform-button {
+        background-color: $btn-background-color !important;
+        color: $btn-text-color !important;
+        cursor: pointer;
+        font-size: $btn-font-size !important;
+        font-weight: 500 !important;
+        -moz-border-radius: 3px !important;
+        -webkit-border-radius: 3px !important;
+        border-radius: 3px !important;
+        border: 2px solid !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        -moz-transition: all 0.2s;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+    .mauticform-button:hover {
+        background-color: $btn-hover-background-color !important;
+        color: $btn-hover-text-color !important;
+    }
+    .mauticform-errormsg{
+      color: $error-label-color !important;
+      font-weight: bold;
+    }
