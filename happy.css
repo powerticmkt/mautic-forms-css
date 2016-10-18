@@ -35,7 +35,7 @@
 .mauticform-input,
 .mauticform-textarea,
 .mauticform-selectbox {
-  border: none !important;
+  border: solid 1px #ccc !important;
   width: 100% !important;
   -moz-border-radius: 0 !important;
   -webkit-border-radius: 0 !important;

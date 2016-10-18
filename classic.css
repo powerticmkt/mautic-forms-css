@@ -1,2 +1,83 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);.mauticform_wrapper,.mauticform_wrapper *{font-family:"Open Sans",sans-serif}.mauticform_wrapper{background-color:#ecf0f1;color:#2c3e50;padding:20px 15px}.mauticform-label{color:#2c3e50}.mauticform-input,.mauticform-textarea,.mauticform-selectbox{border:none !important;width:100% !important;-moz-border-radius:0 !important;-webkit-border-radius:0 !important;border-radius:0 !important;font-size:16px !important;color:#000 !important;padding:16px !important;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}.mauticform-selectbox{vertical-align:middle;height:50px;line-height:50px}.mauticform-button{background-color:#f60 !important;color:#fff;margin:8px auto 0;cursor:pointer;font-size:20px;font-weight:500;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;padding:6px 20px;line-height:1.7em;background:transparent;border:2px solid;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-moz-transition:all 0.2s;-webkit-transition:all 0.2s;transition:all 0.2s;width:100%}.mauticform-button:hover{background-color:#2c3e50 !important;color:#FFF !important;padding:6px 20px !important}.mauticform-errormsg{color:#c0392b !important;font-weight:bold}
+@charset "UTF-8";
+/*
+ * Classic - Mautic Form CSS Theme
+ *
+ * @package     LandingPress
+ * @author      Agência Orangeweb
+ * @copyright   2016 Agência Orangeweb
+ * @license     GPL-2.0+
+ *
+ * Version:     1.0.0
+ * Author:      Agência Orangeweb
+ * Author URI:  https://www.orangeweb.com.br
+ * License:     GPL-2.0+
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+.mauticform_wrapper,
+.mauticform_wrapper * {
+  font-family: "Open Sans", sans-serif; }
+
+.mauticform_wrapper {
+  background-color: transparent !important;
+  color: #2c3e50 !important;
+  padding: 20px 15px !important; }
+
+.mauticform-row {
+  padding: 8px !important;
+  margin: 8px !important; }
+
+.mauticform-label {
+  color: #2c3e50 !important;
+  font-weight: 100 !important;
+  margin: 0 0 5px 0 !important; }
+
+.mauticform-input,
+.mauticform-textarea,
+.mauticform-selectbox {
+  border: solid 1px #ccc !important;
+  width: 100% !important;
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+  font-size: 16px !important;
+  color: #000 !important;
+  padding: 16px !important;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.mauticform-selectbox {
+  vertical-align: middle !important;
+  height: 50px !important;
+  line-height: 50px !important; }
+
+.mauticform-button {
+  background-color: #FF6600 !important;
+  color: #fff !important;
+  margin: 8px auto 0 !important;
+  cursor: pointer;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  -moz-border-radius: 3px !important;
+  -webkit-border-radius: 3px !important;
+  border-radius: 3px !important;
+  padding: 12px 20px !important;
+  line-height: 1.7em !important;
+  border: 2px solid !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  width: 100%; }
+
+.mauticform-button:hover {
+  background-color: #2c3e50 !important;
+  color: #FFF !important; }
+
+.mauticform-errormsg {
+  color: #c0392b !important;
+  font-weight: bold; }
+
 /*# sourceMappingURL=classic.css.map */
